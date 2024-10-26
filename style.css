@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+header {
+    background-color: #2c3e50; /* Dark blue color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex; /* Use flexbox for the nav */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flex for the ul */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items */
+}
+
+nav ul li {
+    margin: 5px 15px; /* Spacing between menu items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px; /* Add padding for better click area */
+    transition: background-color 0.3s ease; /* Smooth background change */
+}
+
+nav ul li a:hover {
+    background-color: #34495e; /* Darker blue on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    text-align: center; /* Center content */
+    background-color: white; /* White background for sections */
+    margin: 20px auto; /* Center section on the page */
+    max-width: 900px; /* Limit section width */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    margin-bottom: 20px; /* Space below heading */
+}
+
+/* Image Gallery Styles */
+.image-gallery {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items */
+    margin-top: 20px; /* Space above gallery */
+}
+
+.image-gallery img {
+    margin: 10px; /* Space around images */
+    max-width: 200px; /* Limit image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+    transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Contact Form Styles */
+.contact-form {
+    width: 300px; /* Fixed width for the form */
+    margin: 0 auto; /* Center the form */
+}
+
+.contact-form label {
+    display: block; /* Block display for labels */
+    margin: 10px 0 5px; /* Spacing */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding for better usability */
+    margin-bottom: 10px; /* Space below each input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.contact-form button {
+    background-color: #2c3e50; /* Button color */
+    color: white; /* Text color */
+    padding: 10px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.contact-form button:hover {
+    background-color: #34495e; /* Darker button color on hover */
+}
+/* Footer Styles */
+footer {
+    background-color: #2c3e50; /* Dark background for contrast */
+    color: white; /* White text */
+    text-align: center; /* Center-align the text */
+    padding: 15px 0; /* Padding for spacing */
+    position: fixed; /* Fix the footer at the bottom */
+    bottom: 0; /* Place it at the bottom */
+    width: 100%; /* Full width */
+    display: flex; /* Flexbox for row layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow on top */
+}
+
+footer p {
+    margin: 0; /* Remove default margins */
+}
